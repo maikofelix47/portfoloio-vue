@@ -8,16 +8,15 @@
             >I'm Felix Maiko.
           </span>
         </h1>
-       <!---
-         <hr class="intro-divider about-divider" />
-       -->
         <h4>
           I'm a Fullstack web developer with over {{ experience }} yrs
           experience building diverse web application systems
         </h4>
         <div class="action-buttons">
-          <router-link class="nav-next" to="/skills">Check out my Skills!</router-link>
-          <router-link class="nav-next" to="/contact-me">Contact Me</router-link>
+          <router-link class="nav-next" to="/skills">View Skills!</router-link>
+          <router-link class="nav-next" to="/contact-me"
+            >Contact Me</router-link
+          >
         </div>
       </div>
     </div>
@@ -30,8 +29,7 @@ export default {
       experience: new Date().getFullYear() - 2016,
     };
   },
-  methods: {
-  }
+  methods: {},
 };
 </script>
 <style scoped>
@@ -47,10 +45,10 @@ export default {
 .about-divider {
   width: 33%;
 }
-.action-buttons{
+.action-buttons {
   margin-top: 20px;
 }
-.action-buttons .nav-next{
+.action-buttons .nav-next {
   display: inline;
   margin-right: 10px;
   padding-top: 5px;
