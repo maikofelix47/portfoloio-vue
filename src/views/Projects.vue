@@ -14,7 +14,7 @@
       >
         <div class="card project-card">
           <img
-            :src="`src/assets/${project.folder}/${project.featuredImageLink}`"
+            :src="`/img/${project.folder}/${project.featuredImageLink}`"
             class="card-img-top"
             alt="..."
           />

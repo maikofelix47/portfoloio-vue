@@ -34,9 +34,9 @@
               :key="screenshot"
             >
               <img
-                :src="`../src/assets/${specificProject?.folder}/${screenshot}`"
+                :src="`/img/${specificProject?.folder}/${screenshot}`"
                 class="carousel-image"
-                alt="..."
+                :alt="specificProject.title"
               />
             </div>
           </div>
