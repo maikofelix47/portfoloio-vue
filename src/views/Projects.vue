@@ -20,11 +20,11 @@
           />
           <div class="card-body">
             <h5 class="card-title">{{ project.title }}</h5>
-            <p class="card-text">
-              {{project.description}}
-            </p>
-            <a href="#" class="btn btn-primary">View More</a>
-
+            <router-link
+              class="btn btn-primary view-btn"
+              :to="`projects/${project.id}`"
+              >View More</router-link
+            >
           </div>
         </div>
       </div>
@@ -45,11 +45,22 @@ export default {
 #projects-content {
   text-align: center;
 }
-.project-card{
-    background: transparent;
+.project-card {
+  background: transparent;
 }
-.project-card img{
-    height: 400px;
-    width: auto;
+.project-card img {
+  height: 400px;
+  width: auto;
+}
+.view-btn {
+  background: transparent;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.view-btn:hover {
+  background: #03c8fc;
 }
 </style>

@@ -14,9 +14,6 @@
         </h4>
         <div class="action-buttons">
           <router-link class="nav-next" to="/skills">View Skills!</router-link>
-          <router-link class="nav-next" to="/contact-me"
-            >Contact Me</router-link
-          >
         </div>
       </div>
     </div>
