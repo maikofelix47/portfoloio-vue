@@ -5,10 +5,10 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/skills">Skills</a>
+            <router-link class="nav-link" to="/skills">Skills</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/projects">Projects</a>
+            <router-link class="nav-link" to="/projects">Projects</router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://blog.felixmaiko.com">Blog</a>
