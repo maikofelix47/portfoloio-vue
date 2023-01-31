@@ -2,8 +2,8 @@ export const projects = [
   {
     id: 1,
     title: "E-Commerce System",
-    description: `This is an investment system used by sacco groups to register members, make payments, track contributions
-    generate system reports`,
+    description: `This is an E-commerce system that allows customers to register, view different products and also
+    purchase different products`,
     featuredImageLink: "products.png",
     folder: "elgon-shop",
     screenshots: [
