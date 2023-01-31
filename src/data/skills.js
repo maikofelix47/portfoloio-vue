@@ -165,4 +165,10 @@ export const skills = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
     testing: true,
   },
+  {
+    id: 18,
+    name: "AWS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+    cloud: true,
+  },
 ];
