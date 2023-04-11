@@ -13,7 +13,13 @@
           experience building diverse web application systems
         </h4>
         <div class="action-buttons">
-          <router-link class="nav-next" to="/skills">View Skills!</router-link>
+          <router-link class="nav-next" to="/skills">My Skills</router-link>
+        </div>
+        <div class="action-buttons">
+          <router-link class="nav-next" to="/projects">My Projects</router-link>
+        </div>
+        <div class="action-buttons">
+          <a class="nav-next" href="https://blog.felixmaiko.com">Blog</a>
         </div>
       </div>
     </div>
@@ -44,9 +50,9 @@ export default {
 }
 .action-buttons {
   margin-top: 20px;
+  display: inline-block;
 }
 .action-buttons .nav-next {
-  display: inline;
   margin-right: 10px;
   padding-top: 5px;
 }
