@@ -191,4 +191,14 @@ export const skills = [
     library: false,
     language: false,
   },
+  {
+    id: 21,
+    name: "Wordpress",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
+    frontend: true,
+    backend: true,
+    framework: true,
+    library: false,
+    language: false,
+  },
 ];
