@@ -125,12 +125,10 @@ export default {
     },
     screenShots() {
       const ss = this.specificProject?.screenshots || [];
-      console.log("ss", ss);
       return ss;
     },
     techs() {
       const t = this.specificProject?.technology || [];
-      console.log("t", t);
       return t;
     },
   },

@@ -13,7 +13,7 @@ export const projects = [
       "products.png",
       "login.png",
     ],
-    technology: ["Angular","Angular Material", "Firebase Realtime Database"],
+    technology: ["Angular", "Angular Material", "MySql", "NestJs"],
     repositoryLink: "https://github.com/maikofelix47/ng-ecommerce",
   },
   {
