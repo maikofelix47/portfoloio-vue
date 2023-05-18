@@ -1,6 +1,23 @@
 export const projects = [
   {
     id: 1,
+    title: "Mini-HRS - Health Records System",
+    description: `This is a small Medical Record System for small facilities. It allows users to register patients,enroll
+    them into programs,start visits and enter encounter data as well as see patient data`,
+    featuredImageLink: "active_visits.png",
+    folder: "mini-hrs",
+    screenshots: [
+      "new_encounter.png",
+      "active_visits.png",
+      "enroll.png",
+      "dashboard.png",
+      "login.png",
+    ],
+    technology: ["React", "Ant Design System", "Postgresql", "NestJs"],
+    repositoryLink: "https://github.com/maikofelix47/mini-hrs",
+  },
+  {
+    id: 2,
     title: "E-Commerce System",
     description: `This is an E-commerce system that allows customers to register, view different products and also
     purchase different products`,
@@ -17,7 +34,7 @@ export const projects = [
     repositoryLink: "https://github.com/maikofelix47/ng-ecommerce",
   },
   {
-    id: 2,
+    id: 3,
     title: "Budget & Ordering Syetem",
     description: `This is a product ordering system built using Django, Python, Bootstrap and MySQL. It allows one to select items from a pre-saved list of products they buy frequently and send the list as well as the store the item is in to a specified Rider in form of SMS`,
     featuredImageLink: "bo_order_item.png",
@@ -33,7 +50,7 @@ export const projects = [
     repositoryLink: "https://github.com/maikofelix47/budget-order",
   },
   {
-    id: 3,
+    id: 4,
     title: "Sacco System",
     description: `This is an investment system used by sacco groups to register members, make payments, track contributions
     generate system reports`,
@@ -50,7 +67,7 @@ export const projects = [
     repositoryLink: "https://bitbucket.org/maikofelix89/mombosacco/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Dev on Call Dashboard",
     description: `This is the frontend of the project used by the oncall person to monitor system queues as well as
         other tables such as logs, lab results etc..`,
@@ -61,7 +78,7 @@ export const projects = [
     repositoryLink: "https://github.com/maikofelix47/dev-on-call-dashboard",
   },
   {
-    id: 5,
+    id: 6,
     title: "User Management",
     description: `This is the front-end for a user management tool. It allows admins to assign location rights to users`,
     screenshots: ["um2.png", "um3.png", "um4.png"],
@@ -71,7 +88,7 @@ export const projects = [
     repositoryLink: "https://github.com/maikofelix47/usr-management",
   },
   {
-    id: 6,
+    id: 7,
     title: "Portfolio",
     description: `Personal website portfolio.`,
     screenshots: ["port2.png", "port1.png", "port3.png"],
@@ -81,7 +98,7 @@ export const projects = [
     repositoryLink: "https://github.com/maikofelix47/portfoloio-vue",
   },
   {
-    id: 7,
+    id: 8,
     title: "Blog",
     description: `Personal Blog.`,
     screenshots: ["blog1.png", "blog2.png", "blog3.png"],
@@ -91,7 +108,7 @@ export const projects = [
     repositoryLink: "",
   },
   {
-    id: 8,
+    id: 9,
     title: "AMPATH POC",
     description: `This is the front-end of a Point of Care System that helps medical workers provide care to patients. 
     It includes patient registration, search, appointments, summmaries, vitals etc`,
@@ -102,7 +119,7 @@ export const projects = [
     repositoryLink: "https://github.com/AMPATH/ng2-amrs",
   },
   {
-    id: 9,
+    id: 10,
     title: "Formentry",
     description: `This is a project used to design forms based on json schema`,
     featuredImageLink: "form-builder-2.png",
@@ -116,7 +133,7 @@ export const projects = [
     repositoryLink: "https://github.com/AMPATH/ngx-openmrs-formbuilder",
   },
   {
-    id: 10,
+    id: 11,
     title: "Flat Log Monitor",
     description: `Service for monitoring ETL Table updates. Checks hourly if a certain period has passed since the last table sync. If the period is more then specified it send a slack notification to alert the developer team `,
     featuredImageLink: "flat_log_monitor_read_me.png",
@@ -130,7 +147,7 @@ export const projects = [
     repositoryLink: "https://github.com/maikofelix47/flat-log-monitor",
   },
   {
-    id: 11,
+    id: 12,
     title: "EID Queue Processor",
     description: `It takes the patients from the eid queue one at a time and sends an api request to another service that fetches their lab results`,
     featuredImageLink: "eid_queue_processor_read_me.png",
