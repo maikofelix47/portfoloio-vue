@@ -78,16 +78,6 @@ export const projects = [
     repositoryLink: "https://github.com/maikofelix47/dev-on-call-dashboard",
   },
   {
-    id: 6,
-    title: "User Management",
-    description: `This is the front-end for a user management tool. It allows admins to assign location rights to users`,
-    screenshots: ["um2.png", "um3.png", "um4.png"],
-    folder: "um",
-    featuredImageLink: "um2.png",
-    technology: ["VueJs", "Node", "Javascript", "Bootstrap"],
-    repositoryLink: "https://github.com/maikofelix47/usr-management",
-  },
-  {
     id: 7,
     title: "Portfolio",
     description: `Personal website portfolio.`,
